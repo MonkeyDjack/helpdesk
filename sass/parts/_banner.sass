@@ -4,7 +4,7 @@
 	position: relative
 	padding-top: 685px
 	+phone
-		padding-top: 450px
+		padding-top: 345px
 	.banner-txt
 		text-align: center
 		width: 840px
@@ -40,12 +40,16 @@
 			height: 1px
 			z-index: 100
 			background: $grey
+
 		p
 			font:
 				family: "RalewayRegular", arial
 				size: 18px
 			color: $grey
 			margin: 15px 0 46px
+			+tablet
+				visibility: hidden
+			
 		a
 			padding-top: 16px
 			display: inline-block
