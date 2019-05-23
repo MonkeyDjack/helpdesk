@@ -62,6 +62,9 @@ header {
   overflow: hidden; }
   header .logo {
     float: left; }
+    @media screen and (max-width: 870px) {
+      header .logo {
+        width: 220px; } }
   header ul.menu {
     float: right;
     list-style: none;
