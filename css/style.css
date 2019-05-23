@@ -186,9 +186,6 @@ header {
       font-size: 18px;
       color: #b2b2b2;
       margin: 15px 0 46px; }
-      @media screen and (max-width: 870px) {
-        .banner-block .banner-txt p {
-          visibility: hidden; } }
     .banner-block .banner-txt a {
       padding-top: 16px;
       display: inline-block;
